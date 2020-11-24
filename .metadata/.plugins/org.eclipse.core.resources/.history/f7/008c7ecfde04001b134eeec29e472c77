@@ -1,0 +1,7 @@
+package com.example.repository;
+
+public interface IPersonaRepo {
+	
+	public void Registrar(String nombre);
+
+}

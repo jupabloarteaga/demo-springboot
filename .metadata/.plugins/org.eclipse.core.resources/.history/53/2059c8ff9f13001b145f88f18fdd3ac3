@@ -1,0 +1,16 @@
+package com.example.demo.component;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class DatosPersonaImpl implements IDatosPersona{
+
+	private static final Logger log = LoggerFactory.getLogger(DatosPersonaImpl.class);
+
+	@Override
+	public String datos(String name) {
+		log.info("Los datos de la persona ", name);
+		return name;
+	}
+
+}

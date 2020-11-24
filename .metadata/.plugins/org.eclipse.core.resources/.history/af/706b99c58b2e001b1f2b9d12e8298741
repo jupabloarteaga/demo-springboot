@@ -1,0 +1,12 @@
+package com.example.demo.config;
+
+import org.json.JSONObject;
+import org.springframework.context.annotation.Bean;
+
+public class JsonObject {
+
+	@Bean
+	public JSONObject json() {
+		return new JSONObject();
+	}
+}

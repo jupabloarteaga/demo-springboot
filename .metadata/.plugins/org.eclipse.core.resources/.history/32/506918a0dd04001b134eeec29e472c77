@@ -1,0 +1,11 @@
+package com.example.repository;
+
+public class PersonaRepoImpl implements IPersonaRepo {
+
+	@Override
+	public void Registrar(String nombre) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

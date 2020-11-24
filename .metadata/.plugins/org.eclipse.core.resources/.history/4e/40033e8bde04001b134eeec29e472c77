@@ -1,0 +1,19 @@
+package com.example.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.repository.IPersonaRepo;
+
+@Service
+public class PersonaServiceImpl implements IPersonaService {
+	@Autowired
+	IPersonaRepo repository;
+
+	@Override
+	public void Registrar(String nombre) {
+		repository.Registrar(nombre);
+
+	}
+
+}

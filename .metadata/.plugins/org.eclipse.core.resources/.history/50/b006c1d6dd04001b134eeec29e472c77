@@ -1,0 +1,11 @@
+package com.example.service;
+
+public class PersonaServiceImpl implements IPersonaService {
+
+	@Override
+	public void Registrar(String nombre) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
